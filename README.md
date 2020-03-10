@@ -12,6 +12,6 @@
 10. The app will read this file, get the values of ```latitude``` and ```longitude``` and get the results from ```arcgis``` using the ```arcgis``` module. Make sure you installed this module (e.g. ```pip(3) install arcgis``` - in case of using pip(3))
 9. The browser will be riderected to the page with results of your request and display the name of requested points and its adresses.
 
-#TODO:
+<b>#TODO:</b>
 1. Calculate the destinations between the points basing on provided latitudes and longitudes
 2. To make API accessable with wget/cURL for Linux machines
