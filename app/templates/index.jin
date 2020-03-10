@@ -1,0 +1,24 @@
+{% extends 'base.jin' %}
+
+{% block main %}
+
+<h2>Please, choose the file you want to upload</h2>
+
+<form action="" method="POST" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+
+     <p>
+        {{ form.file() }}
+    </p>
+
+    <p>
+        {{ form.submit() }}
+    </p>
+
+
+</form>
+
+{% endblock %}
+
+</body>
+</html>

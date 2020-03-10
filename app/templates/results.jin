@@ -1,0 +1,8 @@
+{% extends 'base.jin' %}
+
+{% block main %}
+
+<p>Your filename: {{ file_name }}</p>
+<p>Your filename path: {{ file_path }}</p>
+
+{% endblock %}
